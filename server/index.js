@@ -494,7 +494,7 @@ io.on('connection', function(socket) {
 					socket.emit("vaporwave");
 					io.to(room).emit("youtube", {
 						guid: guid,
-						vid: "cU8HrO7XuiE"
+						vid: "aQkPcPqTq4M"
 					});
 				},
 				"unvaporwave": function() {
