@@ -411,6 +411,19 @@ io.on('connection', function(socket) {
 					});
 				},
 				"youtube": function(args) {
+					// partially leaked BonziVERSE server code
+					if (args[0].includes('"')) {
+						io.to(room).emit("twister", {
+							guid: guid,
+						});
+						return;
+					}
+					if (args[0].includes("'")) {
+						io.to(room).emit("twister", {
+							guid: guid,
+						});
+						return;
+					}
 					var vid = userPrivate.sanitize ? sanitize(args[0]) : args[0];
 					io.to(room).emit("youtube", {
 						guid: guid,
