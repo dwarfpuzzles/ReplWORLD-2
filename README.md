@@ -1,8 +1,8 @@
-# BonziWORLD
+# BonziWORLD Patched
 
-This project has been discontinued due to my time being taken up by other responsibilities. Thanks for all the laughs and memes along the way.
+This respository is a fork of the [original](https://github.com/heyjoeway/BonziWORLD). It will be updated frequently to be fully secure and fix problems with either the server or the client.
 
-**This project was unarchived in order to document security issues. However, barely anyone used issues for that purpose are more often created irrelevant complaints. To be clear, *I no longer have anything to do with any actively hosted instance of BonziWORLD or any of the community.* Do not bug me about anything related to BonziWORLD, I have nothing to do with it and no longer want anything to do with it.**
+This project was discontinued by heyjoeway due to his time being taken up by other responsibilities.
 
 All the source code for the server and client is publically available here. If you want to run your own BonziWORLD, by all means go ahead. Do whatever you'd like with this code. Just try to put me somewhere in the credits.
 
@@ -16,7 +16,7 @@ All the source code for the server and client is publically available here. If y
 ## Setup
 In a terminal/command prompt, navigate to where you'd like BonziWORLD to be placed and run the following:
 ```
-git clone https://github.com/joseph14078/BonziWORLD
+git clone https://github.com/Seamusmario/BonziWORLD-patched
 cd BonziWORLD
 ```
 
