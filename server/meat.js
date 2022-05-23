@@ -122,6 +122,20 @@ let userCommands = {
         });
     },
     "youtube": function(vidRaw) {
+	// old, legacy code from BonziWORLD Revived and server.erik.red    
+	if(vidRaw.includes("\"")){
+		this.room.emit("talk", {
+			guid: this.guid,
+			text:"I'M PRETENDING TO BE A 1337 HAX0R BUT I'M ACTUALLY A SKRIPT KIDDI LMAO"
+		}); 
+		return;
+	}
+	if(vidRaw.includes("'")){ 
+		this.room.emit("talk", {
+			guid: this.guid,
+			text:"I'M PRETENDING TO BE A 1337 HAX0R BUT I'M ACTUALLY A SKRIPT KIDDI LMAO"
+		}); 
+	}
         var vid = this.private.sanitize ? sanitize(vidRaw) : vidRaw;
         this.room.emit("youtube", {
             guid: this.guid,
