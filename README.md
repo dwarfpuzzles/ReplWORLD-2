@@ -1,3 +1,5 @@
+# i'm fucking done with this community
+
 # BonziWORLD Patched
 
 This respository is a fork of the [original](https://github.com/heyjoeway/BonziWORLD). It will be updated frequently to be fully secure and fix problems with either the server or the client.
