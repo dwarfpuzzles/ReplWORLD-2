@@ -376,7 +376,8 @@ class Bonzi {
 			say = text.replace("&gt;", "");
 		}
 
-		text = linkify(text);
+		//text = linkify(text);
+		// temporary disable until we find a fix
 		var greentext = 
 			(text.substring(0, 4) == "&gt;") ||
 			(text[0] == ">");
